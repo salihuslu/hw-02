@@ -23,8 +23,8 @@ body {
 
 header {
     background: #fff;
-    position: fixed;
-    width: 1440px;
+
+
     height: 72px;
     border: 1px;
     padding: 10px;
@@ -32,7 +32,7 @@ header {
 
 section {
     padding: 100px;
-    width: 1440px;
+
     height: 600px;
 }
 
@@ -204,6 +204,7 @@ section {
 .footer {
     background-color: #2E2F42;
     height: 212px;
+
 }
 
 .footer-logo {
