@@ -23,17 +23,11 @@ body {
 
 header {
     background: #fff;
-
-
-    height: 72px;
-    border: 1px;
-    padding: 10px;
+    margin: 0 auto;
 }
 
 section {
-    padding: 100px;
-
-    height: 600px;
+    padding: 120px 0;
 }
 
 .navbar {
@@ -43,6 +37,8 @@ section {
     margin: 0 auto;
     width: 80%;
     padding: 10px 0;
+    height: 72px;
+    border: 1px;
 }
 
 .menu {
@@ -56,6 +52,15 @@ section {
     padding: 5px 15px;
     border-radius: 5px;
     transition: all .5s ease-in-out;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.line li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .menu li a:hover {
@@ -76,11 +81,21 @@ section {
 
 .logo h2 {
     display: flex;
+}
+
+.logo p {
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
 
 }
 
 .first {
     color: #4D5AE5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .second {
@@ -88,40 +103,43 @@ section {
 }
 
 .inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    display: grid;
-    place-items: center;
-    padding: 100px;
+    margin: 0 auto;
+    width: 496px;
 }
 
 .hero {
     background: #2E2F42;
+    height: 600px;
 }
 
 .hero-text {
-    padding: 50px;
     color: #ffffff;
+    font-weight: 700;
     font-size: 56px;
-    display: grid;
-    place-items: center;
-    height: 120px;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.button {
+    margin: 0 auto;
+    padding: 60px;
 }
 
 .btn {
-    margin: 90px;
-    width: 150px;
-    height: 50px;
+    padding: 16px 32px 16px 32px;
     background: #4D5AE5;
     color: #fff;
     border: 0;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.feature {
-    height: 104px;
-
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .feature-inner {
@@ -130,69 +148,86 @@ section {
     align-items: center;
     color: #434455;
     margin: 0 auto;
-    width: 80%;
+    height: 104px;
+    width: 1128px;
 }
 
-.child {
-    margin-left: 15px;
+.child h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.child p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.team h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: #2E2F42;
 }
 
 .card-container {
     background-color: #F4F4FD;
-    height: 432px;
+    height: 732px;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
-.card-container h1 {
+.card-container h2 {
     color: #2E2F42;
-    display: grid;
-    place-items: center;
-
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
 }
 
 .card-inner {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 0 40px;
+    justify-content: space-between;
+    width: 1128px;
+    margin: 0 auto;
 }
 
 .card {
-    border-radius: 5px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    margin: 20px;
+    margin: 0 auto;
+    width: 264px;
+    height: 380px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .card-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 14px;
-}
-
-.image-content {
-    row-gap: 10px;
+    width: 232px;
+    height: 56px;
+    gap: 8px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px;
 }
 
 .card-image {
-    position: relative;
-    height: 150px;
-    width: 150px;
-}
-
-.card-image .card-image {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+    height: 260px;
+    width: 264px;
 }
 
 .name {
-    font-size: 18px;
-    font-weight: 500;
     color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
 }
 
 .description {
@@ -203,24 +238,39 @@ section {
 
 .footer {
     background-color: #2E2F42;
-    height: 212px;
+    height: 312px;
+    margin: 0 auto;
+    display: flex;
 
 }
 
 .footer-logo {
-    width: 30%;
+    width: 264px;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    justify-content: center;
-    position: relative;
-    left: 60px;
-    margin: 40px;
+    height: 112px;
+}
+
+.footer-inner {
+    width: 1128px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
 }
 
 .footer-logo h3 {
     display: flex;
-    margin: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
 
+.footer-logo p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .footer-first {
@@ -229,4 +279,10 @@ section {
 
 .footer-second {
     color: #F4F4FD;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+
 }
